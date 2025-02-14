@@ -102,10 +102,16 @@ img {
 
 .bg-video {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   width: 100%;
   height: 100%;
   object-fit: cover; /* Asegura que el video cubra toda la sección */
   transform: translate(-50%, -50%); /* Centra el video */
+}
+
+@media (max-width: 1000px) {
+  .bg-video {
+    top: 20%;
+  }
 }

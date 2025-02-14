@@ -70,11 +70,6 @@ p {
 }
 
 
-.bg-video {
-  object-fit: contain;
-  object-position: 20% 10%;
-}
-
 @media (max-width: 1100px) {
   .demo{
       flex-direction: column;
